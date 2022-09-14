@@ -1,0 +1,91 @@
+body,
+html {
+  margin: 0;
+}
+.App {
+  /* font-family: "Hahmlet", serif; */
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1.5fr 8.5fr;
+  border-bottom: 1px solid #d6d2cf;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #d6d2cf;
+}
+.header_wrap {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+.user img {
+  cursor: pointer;
+}
+.user p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5d6047;
+}
+.menu {
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+.menubtn {
+  background-color: transparent;
+  border: 0;
+  color: #777;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.menuClickbtn {
+  background-color: transparent;
+  border: 0;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #071f5d;
+}
+.sidebar {
+  background-color: #30a20f;
+  height: 85vh;
+}
+.submenu {
+  margin-left: 20px;
+  height: 50px;
+  /* background-color: #071f5d; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: end; */
+}
+.submenu button {
+  background-color: transparent;
+  border: 0;
+  color: 071f5d;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.contents {
+  display: grid;
+  grid-template-columns: 1.5fr 8.5fr;
+}
