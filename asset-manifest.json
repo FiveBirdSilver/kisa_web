@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kisa_web/static/css/main.432cb4f7.css",
+    "main.js": "/kisa_web/static/js/main.973340e7.js",
+    "index.html": "/kisa_web/index.html",
+    "main.432cb4f7.css.map": "/kisa_web/static/css/main.432cb4f7.css.map",
+    "main.973340e7.js.map": "/kisa_web/static/js/main.973340e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.432cb4f7.css",
+    "static/js/main.973340e7.js"
+  ]
+}
